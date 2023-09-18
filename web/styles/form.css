@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+#form {
+   margin-top: 64px; 
+   display: flex;
+   gap: 12px;
+}
+#form input {
+    height: 48px;
+    width: 450px;
+    border: none;
+    color: white;
+    background-color: #7c7c7a;
+    border-radius: 5px;
+    padding: 0px 12px;
+    font-size: 16px;
+}
+#form input:focus {
+  outline: 2px solid var(--cortitulo);  /** Quando o mouse fica em cima do input*/
+}
+#form input:valid {
+    background-color: #202024;
+}
+#form button {
+    height: 48px;
+    width: 48px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--cortitulo);
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+#form button:hover {
+    background-color: #633bbc;   
+}
+#form button i {
+    font-size: 24px;
+    color: #fff;
+}
